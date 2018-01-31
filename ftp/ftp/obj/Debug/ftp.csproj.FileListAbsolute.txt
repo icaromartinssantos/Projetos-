@@ -1,0 +1,11 @@
+c:\users\lenovo\documents\visual studio 2017\Projects\ftp\ftp\obj\Debug\ftp.csprojResolveAssemblyReference.cache
+c:\users\lenovo\documents\visual studio 2017\Projects\ftp\ftp\obj\Debug\ftp.csproj.CoreCompileInputs.cache
+c:\users\lenovo\documents\visual studio 2017\Projects\ftp\ftp\bin\Debug\ftp.exe.config
+c:\users\lenovo\documents\visual studio 2017\Projects\ftp\ftp\bin\Debug\ftp.exe
+c:\users\lenovo\documents\visual studio 2017\Projects\ftp\ftp\bin\Debug\ftp.pdb
+c:\users\lenovo\documents\visual studio 2017\Projects\ftp\ftp\bin\Debug\Renci.SshNet.dll
+c:\users\lenovo\documents\visual studio 2017\Projects\ftp\ftp\bin\Debug\SimpleInjector.dll
+c:\users\lenovo\documents\visual studio 2017\Projects\ftp\ftp\bin\Debug\Renci.SshNet.xml
+c:\users\lenovo\documents\visual studio 2017\Projects\ftp\ftp\bin\Debug\SimpleInjector.xml
+c:\users\lenovo\documents\visual studio 2017\Projects\ftp\ftp\obj\Debug\ftp.exe
+c:\users\lenovo\documents\visual studio 2017\Projects\ftp\ftp\obj\Debug\ftp.pdb
