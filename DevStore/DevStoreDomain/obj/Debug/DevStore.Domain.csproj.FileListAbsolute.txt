@@ -1,0 +1,6 @@
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\DevStore\DevStoreDomain\bin\Debug\DevStoreDomain.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\DevStore\DevStoreDomain\bin\Debug\DevStoreDomain.pdb
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\DevStore\DevStoreDomain\obj\Debug\DevStore.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\DevStore\DevStoreDomain\obj\Debug\DevStore.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\DevStore\DevStoreDomain\obj\Debug\DevStoreDomain.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\DevStore\DevStoreDomain\obj\Debug\DevStoreDomain.pdb

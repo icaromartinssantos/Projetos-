@@ -1,0 +1,16 @@
+﻿<div class="jumbotron">
+    <h3>Detalhes do contato</h3>
+    <table class="table table-striped " ng-repeat="c in contato">
+        <tr>
+            <td><b>Nome:</b> {{c.nome}}</td>
+        </tr>
+        <tr>
+            <td><b>Telefone:</b> {{c.telefone}}</td>
+        </tr>
+        <tr>
+            <td><b>Data:</b> {{c.data | date: "dd/MM/yyyy"}}</td>
+        </tr>
+
+    </table>
+   <a href="#!/">Voltar</a>
+</div>

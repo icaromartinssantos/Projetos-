@@ -1,0 +1,42 @@
+﻿<html ng-app="listaTelefonica">
+    <head>
+        <meta charset="UTF-8">
+        <title>Agenda</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular.js"></script>
+        <script src="/SPA/lib/angular/angular-messages.js"></script>
+        <script src="/SPA/lib/angular/angular-locale_pt-br.js"></script>
+        <script src="/SPA/app.js"></script>
+        <link rel="stylesheet" href="/SPA/css/app.css" />
+        <link rel="stylesheet" href="/SPA/css/ui.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+        <script src="/SPA/js/config/routeConfig.js"></script>
+        <script src="/SPA/js/controllers/listaTelefonicaController.js"></script>
+        <script src="/SPA/js/controllers/novoContatoController.js"></script>
+        <script src="/SPA/js/controllers/detalhesContatoController.js"></script>
+        <script src="/SPA/js/services/contatosAPIServices.js"></script>
+        <script src="/SPA/js/services/operadoraAPIServices.js"></script>
+        <script src="/SPA/js/values/configValue.js"></script>
+        <script src="/SPA/js/filters/nameFilter.js"></script>
+        <script src="/SPA/js/filters/ellipsisFilter.js"></script>
+        <!--<script src="/SPA/js/directives/uiAlertDirective.js"></script>-->
+        <script src="/SPA/js/directives/uiDate.js"></script>
+        <!--<script src="/SPA/js/directives/uiAccordion.js"></script>-->
+        <script src="/Scripts/angular-route.js"></script>
+        <script src="/SPA/js/interceptors/timeStampInterceptors.js"></script>
+        <script src="/SPA/js/interceptors/errorInterceptor.js"></script>
+        <script src="/SPA/js/interceptors/loadingInterceptor.js"></script>
+        <script src="/SPA/js/config/interceptorsConfig.js"></script>
+    </head>
+
+    <body>
+        <div class="jumbotron" ng-show="loading">
+            Carregando, Aguarde.....
+        </div>
+
+        <div ng-hide="loading">
+            <div ng-view></div>
+            <div ng-include="'footer.html'"></div>
+        </div>
+    </body>
+
+</html>

@@ -1,0 +1,13 @@
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\DevStore\DevStore.Infra\bin\Debug\DevStore.Infra.dll.config
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\DevStore\DevStore.Infra\bin\Debug\DevStore.Infra.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\DevStore\DevStore.Infra\bin\Debug\DevStore.Infra.pdb
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\DevStore\DevStore.Infra\bin\Debug\DevStoreDomain.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\DevStore\DevStore.Infra\bin\Debug\EntityFramework.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\DevStore\DevStore.Infra\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\DevStore\DevStore.Infra\bin\Debug\DevStoreDomain.pdb
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\DevStore\DevStore.Infra\bin\Debug\EntityFramework.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\DevStore\DevStore.Infra\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\DevStore\DevStore.Infra\obj\Debug\Agenda.Infra.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\DevStore\DevStore.Infra\obj\Debug\Agenda.Infra.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\DevStore\DevStore.Infra\obj\Debug\DevStore.Infra.dll
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\DevStore\DevStore.Infra\obj\Debug\DevStore.Infra.pdb
