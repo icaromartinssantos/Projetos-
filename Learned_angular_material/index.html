@@ -1,0 +1,100 @@
+<html ng-app="app">
+<head>
+        <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.css">
+        <link rel="stylesheet" href="index.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-aria.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-messages.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.js"></script>
+    
+</head>
+<body ng-controller="ExMaterial" ng-cloak>
+   
+<md-card>
+    <md-card-content></md-card-content>        
+        <md-content>
+            <div flex>
+                <div nv-file-drop="" nv-file-over uploader="uploader" over-class="other-over-zone" class="other-drop-zone zone">
+                    <md-tabs md-dynamic-height md-border-bottom>
+                        <md-tab label="Livros {{livros.length ? '(' + livros.length + ')' : ''}}">
+                            <md-content>
+                                <md-subheader class="md-primary">
+                                    Livros disponíveis
+                                </md-subheader>
+                                <md-table-container>
+                                    <table md-table md-progress="promise">
+                                        <thead fix-head md-head>
+                                            <tr md-row>
+                                                <th md-column width="100">Nome</th>
+                                                <th md-column width="100">Editora</th>
+                                                <th md-column width="10">Pagina</th>
+                                            </tr>    
+                                        </thead>
+                                        <tbody md-body>
+                                            <tr ng-repeat="livro in livros" md-auto-select>
+                                                <th md-cell width="100">{{livro.nome}}</th>
+                                                <th md-cell width="100">{{livro.editora}}</th>
+                                                <th md-cell width="10">{{livro.paginas}}</th>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </md-table-container>
+                            </md-content>    
+                        </md-tab>
+
+                        <md-tab label="Locadores {{locadores.length ? '(' + locadores.length + ')' : ''}}">
+                                <md-content>
+                                    <md-subheader class="md-primary">
+                                        Locadores de livros
+                                    </md-subheader>
+                                    <md-table-container>
+                                        <table md-table md-progress="promise">
+                                            <thead fix-head md-head>
+                                                <tr md-row>
+                                                    <th md-column width="100">Nome</th>
+                                                    <th md-column width="100">Idade</th>
+                                                    <th md-column width="10">Sexo</th>
+                                                </tr>    
+                                            </thead>
+                                            <tbody md-body>
+                                                <tr ng-repeat="locador in locadores" md-auto-select>
+                                                    <th md-cell width="100">{{locador.nome}}</th>
+                                                    <th md-cell width="100">{{locador.idade}}</th>
+                                                    <th md-cell width="10">{{locador.sexo}}</th>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </md-table-container>
+                                </md-content>    
+                            </md-tab>
+                    </md-tabs>
+                </div>
+            </div>
+        </md-content>
+    </md-card-content>    
+</md-card>            
+
+   
+    <script>
+        var app = angular.module('app', ["ngMaterial"]);
+
+        app.controller("ExMaterial", function($scope){
+            $scope.livros = [
+                {nome :  "50 tons de cinza", editora : "Escala", paginas :  400},
+                {nome :  "O pequeno principe", editora : "Material", paginas :  300},
+                {nome :  "50 tons mais escuro", editora : "Escala", paginas :  600}
+            ];
+            $scope.locadores = [
+                {nome: "icaro", idade: 20, sexo:"masculino"},
+                {nome: "marcos", idade: 50, sexo:"masculino"},
+                {nome: "jose", idade: 14, sexo:"masculino"}
+            ];
+
+
+            $scope.message = "Hello World!!";
+
+        });
+    </script>
+</body>
+</html>
